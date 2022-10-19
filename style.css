@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.center, .c1, .c2, .c3, .c4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+
+
+}
+
+.center {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: #F1EFDC;
+    z-index: 2;
+    animation: cen 2s infinite alternate;
+}
+
+@keyframes a1 {
+    0% {
+        background-color: rgb(241, 239, 220, 0);
+    }
+
+    25% {
+        background-color: rgb(241, 239, 220, .267);
+    }
+
+    50% {
+        background-color: rgb(241, 239, 220, .533);
+    }
+
+    100% {
+        background-color: rgb(241, 239, 220, .8);
+    }
+
+}
+
+
+
+@keyframes a2 {
+    0% {
+        background-color: rgb(241, 239, 220, 0);
+    }
+
+    25% {
+        background-color: rgb(241, 239, 220, .2);
+    }
+
+    50% {
+        background-color: rgb(241, 239, 220, .4);
+    }
+
+    100% {
+        background-color: rgb(241, 239, 220, .6);
+    }
+
+}
+
+@keyframes a3 {
+    0% {
+        background-color: rgb(241, 239, 220, 0);
+    }
+
+    25% {
+        background-color: rgb(241, 239, 220, .1333);
+    }
+
+    50% {
+        background-color: rgb(241, 239, 220, .267);
+    }
+
+    100% {
+        background-color: rgb(241, 239, 220, .4);
+    }
+
+}
+
+@keyframes a4 {
+    0% {
+        background-color: rgb(241, 239, 220, 0);
+    }
+
+    25% {
+        background-color: rgb(241, 239, 220, .1);
+    }
+
+    50% {
+        background-color: rgb(241, 239, 220, .1333);
+    }
+
+    100% {
+        background-color: rgb(241, 239, 220, .2);
+    }
+}
+
+@keyframes cen {
+    0% {
+
+        color: rgb(241, 239, 220, .4);
+    }
+
+    25% {
+        color: rgb(241, 239, 220, .6);
+    }
+
+    50% {
+
+        color: rgb(241, 239, 220, .8);
+    }
+
+    100% {
+
+        color: rgb(241, 239, 220, 1);
+    }
+}
+
+.c1 {
+
+    padding: 10px;
+    animation: a1 1s;
+}
+
+.c2 {
+    background-color: aqua;
+    padding: 15px;
+    animation: a2 1.5s infinite alternate;
+
+}
+
+.c3 {
+    padding: 20px;
+    animation: a3 2s infinite alternate;
+
+
+}
+
+.c4 {
+    padding: 25px;
+    animation: a4 2.5s infinite alternate;
+
+}
